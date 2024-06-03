@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "HelloOperator.Controller": {
+      "commandName": "Project"
+    },
+    "Container (.NET SDK)": {
+      "commandName": "SdkContainer"
+    }
+  }
+}

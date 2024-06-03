@@ -1,0 +1,13 @@
+apiVersion: operators.rahulrai.net/v1
+kind: HelloApp
+metadata:
+ name: hello-app-ping
+spec:                            
+ message: "Hello, I am Ping"
+---
+apiVersion: operators.rahulrai.net/v1
+kind: HelloApp
+metadata:
+ name: hello-app-pong
+spec:                            
+ message: "Hello, I am Pong"

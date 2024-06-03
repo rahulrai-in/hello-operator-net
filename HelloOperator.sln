@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloOperator.Installer", "HelloOperator.Installer\HelloOperator.Installer.csproj", "{DCBBF0FF-B0CE-4FC6-A576-5A7D775A5E7F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloOperator.Model", "HelloOperator.Model\HelloOperator.Model.csproj", "{B0A9536F-F76B-44C9-BE29-B7CBF230AB64}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloOperator.App", "HelloOperator.App\HelloOperator.App.csproj", "{FB96D124-11EF-4B95-B665-0231F969E274}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloOperator.Controller", "HelloOperator.Controller\HelloOperator.Controller.csproj", "{520E2F37-A312-4690-ACB0-C9C096E9647B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "spec", "spec", "{AF9972F8-A928-458F-904A-E6A49557A180}"
+	ProjectSection(SolutionItems) = preProject
+		spec\rbac.yaml = spec\rbac.yaml
+		spec\hello-app.yaml = spec\hello-app.yaml
+		spec\operator.yaml = spec\operator.yaml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{051F6901-650C-4AB6-9AD1-30A45736B997}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.md = ReadMe.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCBBF0FF-B0CE-4FC6-A576-5A7D775A5E7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCBBF0FF-B0CE-4FC6-A576-5A7D775A5E7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCBBF0FF-B0CE-4FC6-A576-5A7D775A5E7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCBBF0FF-B0CE-4FC6-A576-5A7D775A5E7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0A9536F-F76B-44C9-BE29-B7CBF230AB64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0A9536F-F76B-44C9-BE29-B7CBF230AB64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0A9536F-F76B-44C9-BE29-B7CBF230AB64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0A9536F-F76B-44C9-BE29-B7CBF230AB64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB96D124-11EF-4B95-B665-0231F969E274}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB96D124-11EF-4B95-B665-0231F969E274}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB96D124-11EF-4B95-B665-0231F969E274}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB96D124-11EF-4B95-B665-0231F969E274}.Release|Any CPU.Build.0 = Release|Any CPU
+		{520E2F37-A312-4690-ACB0-C9C096E9647B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{520E2F37-A312-4690-ACB0-C9C096E9647B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{520E2F37-A312-4690-ACB0-C9C096E9647B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{520E2F37-A312-4690-ACB0-C9C096E9647B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A4EDE54-0D7F-47D5-95B1-F9D85138725B}
+	EndGlobalSection
+EndGlobal

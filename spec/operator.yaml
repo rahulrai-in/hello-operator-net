@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello-operator
+  labels:
+    app: hello-operator
+spec:
+  selector:
+    matchLabels:
+      app: hello-operator
+  template:
+    metadata:
+      labels:
+        app: hello-operator
+    spec:
+      serviceAccountName: hello-operator
+      automountServiceAccountToken: true
+      initContainers:
+        - name: installer
+          image: hello-operator.installer:v1.0
+          imagePullPolicy: Never
+      containers:
+        - name: hello-operator-controller
+          image: hello-operator.controller:v1.0
+          imagePullPolicy: Never  
